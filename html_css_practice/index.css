@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+    margin: 0;
+}
+
+.Navbar {
+    background-color: rgb(163, 150, 245);
+    color: black;
+    padding: 0 150px;
+}
+
+.nav_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.navs {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+section {
+    height: 500px;
+}
+
+.main, .about{
+    background-color: aqua;
+}
+
+.about {
+    font-size: larger;
+}
